@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:how2app/turma.dart';
+import 'package:how2/entrarTurma.dart';
+import 'package:how2/turma.dart';
 
 void main() {
   runApp(const MyApp());
@@ -252,7 +253,7 @@ class CatalogTab extends StatelessWidget {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => const TurmaPag()),
+                                    builder: (context) => const EntrarPag()),
                               );
                             },
                           ),
