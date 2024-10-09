@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:how2/entrarTurma.dart';
-import 'package:how2/turma.dart';
+import 'package:how2app/entrarturma.dart';
+import 'package:how2app/turma.dart';
 
 void main() {
   runApp(const MyApp());
